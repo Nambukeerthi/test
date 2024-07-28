@@ -13,9 +13,9 @@ def sphere_surface_area(radius):
 def main():
     st.title('SPHERE CALCULATION')
     number = st.number_input("Insert a number")
-    if st.button("Calculate"):
-        vol = sphere_volume(number)
-        area = sphere_surface_area(number)
-        st.write("The volume is ", vol)
-        st.write("The area  is ", area)  
+if st.button("Calculate"):
+    vol = sphere_volume(number)
+    area = sphere_surface_area(number)
+    st.write("The volume is ", vol)
+    st.write("The area  is ", area)  
 
